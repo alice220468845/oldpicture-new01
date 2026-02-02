@@ -72,6 +72,14 @@
         .img-fade-in {
             animation: fadeIn 0.5s ease-in;
         }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.5s ease-out forwards;
+        }
 
         /* --- YouTube 播放器樣式調整 --- */
         #youtube-player-container iframe {
@@ -179,8 +187,8 @@
                     id: 4,
                     name: "陳美鳳",
                     photos: [
-                        { url: "https://images.chinatimes.com/newsphoto/2024-09-25/656/20240925005111.jpg", label: "秀場時期" },
                         { url: "https://static.ctwant.com/images/content/15/55515/ab92bd2af7d9b1426d06a79f685dc226.jpg", label: "年輕寫真" },
+                        { url: "https://images.chinatimes.com/newsphoto/2024-09-25/656/20240925005111.jpg", label: "秀場時期" },
                         { url: "https://images.chinatimes.com/newsphoto/2023-08-24/1024/20230824002059.jpg", label: "現在照片" }
                     ]
                 },
@@ -189,7 +197,7 @@
                     name: "張惠妹",
                     photos: [
                         { url: "https://resize-image.vocus.cc/resize?compression=6&norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2Fec998dd5-ad49-4ee8-899f-ffc5e67ab43b.png&width=740&sign=uu-Vso-piL8EjQ5QjovHi6OkkfjZV6cgzwCs3HOKxIk", label: "五燈獎時期" },
-                        { url: "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oAZAAa9DAEB5i6iEATQzCQ9iPaEIAviIUjWpA~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1768071600&x-signature=9B6PFgpPjQbXN%2BKrviesIDkMJSA%3D", label: "早期宣傳" },
+                        { url: "https://www.5music.com.tw/cdpic/zn2/5120251318948.jpg", label: "早期宣傳" },
                         { url: "https://iam.marieclaire.com.tw/s1200c675h100b0webp100/assets/mc/202511/690B0F4697A281762332486.jpeg", label: "現在照片" }
                     ]
                 },
@@ -197,8 +205,8 @@
                     id: 6,
                     name: "葉全真",
                     photos: [
-                        { url: "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/ooixKNAfAfmAfeJDBBefyeuAE6BxAEauuZfE7Af~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1768136400&x-signature=fXoIE%2FYogcwofFhal5049mUqxPk%3D", label: "電影時期" },
-                        { url: "https://www.popdaily.com.tw/shaper/wp-content/uploads/2023/12/9tjakf2sqakg8owsggc408k08s6d9d6.jpeg?resize-w=1700&resize-h=968&format=webp", label: "清純照片" },
+                        { url: "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/ooixKNAfAfmAfeJDBBefyeuAE6BxAEauuZfE7Af~noop.jpeg?biz_tag=pcweb_cover&card_type=303&column_n=0&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&se=false&x-expires=1771164000&x-signature=EKHyRAvIEidKzwZ1Xp2v%2FyITGO8%3D", label: "清純照片" },
+                        { url: "https://www.popdaily.com.tw/shaper/wp-content/uploads/2023/12/9tjakf2sqakg8owsggc408k08s6d9d6.jpeg?resize-w=1700&resize-h=968&format=webp", label: "電影時期" },
                         { url: "https://media.nownews.com/nn_media/thumbnail/2025/09/1758695358375-a8cf895c314d44a99233f7057d7ea7a5-800x451.webp?unShow=false", label: "現在照片" }
                     ]
                 },
@@ -215,7 +223,7 @@
                     id: 8,
                     name: "顧寶明",
                     photos: [
-                        { url: "https://i1.kknews.cc/rQblo5VmXal2DJDT3aHyEcNefDl4c1M8HA/0.jpg", label: "年輕時期" },
+                        { url: "https://v3-statics.mirrormedia.mg/images/20220319204838-13c8e2866f096f87eb673dc1c8717260-w1600.png", label: "年輕時期" },
                         { url: "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/03/15/0/20639238.png&x=0&y=0&sw=0&sh=0&exp=3600", label: "經典劇照" },
                         { url: "https://v3-statics.mirrormedia.mg/images/20230313175709-54f48cc7527b03277e4ca036d3265f8a-w1600.jpg", label: "現在照片" }
                     ]
